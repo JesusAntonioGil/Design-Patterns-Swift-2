@@ -4,6 +4,7 @@
 
 ##### Table of Contents
   1: Creational Patterns
+  
     - The prototype pattern
     - The factory pattern
     - The singleton pattern
