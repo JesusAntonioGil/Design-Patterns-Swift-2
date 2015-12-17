@@ -26,7 +26,7 @@
     - The adpater pattern
     - The farcade pattern
   
-  5: Behavioral Patterns
+  5: Behavioral Patterns (1)
   
     - The strategy pattern
     - The state pattern
