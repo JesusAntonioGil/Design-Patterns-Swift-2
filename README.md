@@ -49,7 +49,7 @@
     - The interpreter pattern
     - The memento pattern
 
-### Provide "Swift 2 Design Patterns" by Julien Lange
+##### Provide "Swift 2 Design Patterns" by Julien Lange
 
 ## License
 
