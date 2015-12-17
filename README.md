@@ -22,6 +22,7 @@
     - The flyweight pattern
   
   4: Structural Patterns (3)
+  
     - The adpater pattern
     - The farcade pattern
   
