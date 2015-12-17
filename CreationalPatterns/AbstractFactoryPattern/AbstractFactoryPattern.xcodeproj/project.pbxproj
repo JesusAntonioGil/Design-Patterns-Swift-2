@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA061CE91C230F4000902B55 /* StainlessSteelDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA061CE81C230F4000902B55 /* StainlessSteelDial.swift */; };
+		EA061CEA1C230F4000902B55 /* StainlessSteelDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA061CE81C230F4000902B55 /* StainlessSteelDial.swift */; };
+		EA061CEB1C230F4000902B55 /* StainlessSteelDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA061CE81C230F4000902B55 /* StainlessSteelDial.swift */; };
+		EA061CED1C230FD300902B55 /* Watch38mmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA061CEC1C230FD300902B55 /* Watch38mmFactory.swift */; };
+		EA061CEE1C230FD300902B55 /* Watch38mmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA061CEC1C230FD300902B55 /* Watch38mmFactory.swift */; };
+		EA061CEF1C230FD300902B55 /* Watch38mmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA061CEC1C230FD300902B55 /* Watch38mmFactory.swift */; };
+		EA315A591C2303C2001A2A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A581C2303C2001A2A64 /* AppDelegate.swift */; };
+		EA315A5B1C2303C2001A2A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A5A1C2303C2001A2A64 /* ViewController.swift */; };
+		EA315A5E1C2303C2001A2A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA315A5C1C2303C2001A2A64 /* Main.storyboard */; };
+		EA315A601C2303C2001A2A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA315A5F1C2303C2001A2A64 /* Assets.xcassets */; };
+		EA315A631C2303C2001A2A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA315A611C2303C2001A2A64 /* LaunchScreen.storyboard */; };
+		EA315A6E1C2303C2001A2A64 /* AbstractFactoryPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A6D1C2303C2001A2A64 /* AbstractFactoryPatternTests.swift */; };
+		EA315A791C2303C2001A2A64 /* AbstractFactoryPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A781C2303C2001A2A64 /* AbstractFactoryPatternUITests.swift */; };
+		EA315A881C230488001A2A64 /* ProtocolsAndEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A871C230488001A2A64 /* ProtocolsAndEnums.swift */; };
+		EA315A891C230488001A2A64 /* ProtocolsAndEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A871C230488001A2A64 /* ProtocolsAndEnums.swift */; };
+		EA315A8A1C230488001A2A64 /* ProtocolsAndEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A871C230488001A2A64 /* ProtocolsAndEnums.swift */; };
+		EA315A8C1C2306A7001A2A64 /* MilaneseBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A8B1C2306A7001A2A64 /* MilaneseBand.swift */; };
+		EA315A8D1C2306A7001A2A64 /* MilaneseBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A8B1C2306A7001A2A64 /* MilaneseBand.swift */; };
+		EA315A8E1C2306A7001A2A64 /* MilaneseBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A8B1C2306A7001A2A64 /* MilaneseBand.swift */; };
+		EA315A901C230742001A2A64 /* ClassicBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A8F1C230742001A2A64 /* ClassicBand.swift */; };
+		EA315A911C230742001A2A64 /* ClassicBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A8F1C230742001A2A64 /* ClassicBand.swift */; };
+		EA315A921C230742001A2A64 /* ClassicBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A8F1C230742001A2A64 /* ClassicBand.swift */; };
+		EA315A941C2307A5001A2A64 /* LeatherBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A931C2307A5001A2A64 /* LeatherBand.swift */; };
+		EA315A951C2307A5001A2A64 /* LeatherBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A931C2307A5001A2A64 /* LeatherBand.swift */; };
+		EA315A961C2307A5001A2A64 /* LeatherBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A931C2307A5001A2A64 /* LeatherBand.swift */; };
+		EA315A981C2307FF001A2A64 /* ModernBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A971C2307FF001A2A64 /* ModernBand.swift */; };
+		EA315A991C2307FF001A2A64 /* ModernBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A971C2307FF001A2A64 /* ModernBand.swift */; };
+		EA315A9A1C2307FF001A2A64 /* ModernBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A971C2307FF001A2A64 /* ModernBand.swift */; };
+		EA315A9C1C230867001A2A64 /* LinkBraceletBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A9B1C230867001A2A64 /* LinkBraceletBand.swift */; };
+		EA315A9D1C230867001A2A64 /* LinkBraceletBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A9B1C230867001A2A64 /* LinkBraceletBand.swift */; };
+		EA315A9E1C230867001A2A64 /* LinkBraceletBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A9B1C230867001A2A64 /* LinkBraceletBand.swift */; };
+		EA315AA01C2308AD001A2A64 /* SportBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A9F1C2308AD001A2A64 /* SportBand.swift */; };
+		EA315AA11C2308AD001A2A64 /* SportBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A9F1C2308AD001A2A64 /* SportBand.swift */; };
+		EA315AA21C2308AD001A2A64 /* SportBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315A9F1C2308AD001A2A64 /* SportBand.swift */; };
+		EA315AA61C23091F001A2A64 /* AluminiumDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AA51C23091F001A2A64 /* AluminiumDial.swift */; };
+		EA315AA71C23091F001A2A64 /* AluminiumDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AA51C23091F001A2A64 /* AluminiumDial.swift */; };
+		EA315AA81C23091F001A2A64 /* AluminiumDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AA51C23091F001A2A64 /* AluminiumDial.swift */; };
+		EA315AAA1C230972001A2A64 /* GoldDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AA91C230972001A2A64 /* GoldDial.swift */; };
+		EA315AAB1C230972001A2A64 /* GoldDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AA91C230972001A2A64 /* GoldDial.swift */; };
+		EA315AAC1C230972001A2A64 /* GoldDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AA91C230972001A2A64 /* GoldDial.swift */; };
+		EA315AAE1C2309D3001A2A64 /* WatchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AAD1C2309D3001A2A64 /* WatchFactory.swift */; };
+		EA315AAF1C2309D3001A2A64 /* WatchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AAD1C2309D3001A2A64 /* WatchFactory.swift */; };
+		EA315AB01C2309D3001A2A64 /* WatchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AAD1C2309D3001A2A64 /* WatchFactory.swift */; };
+		EA315AB21C230BCC001A2A64 /* Watch42mmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AB11C230BCC001A2A64 /* Watch42mmFactory.swift */; };
+		EA315AB31C230BCC001A2A64 /* Watch42mmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AB11C230BCC001A2A64 /* Watch42mmFactory.swift */; };
+		EA315AB41C230BCC001A2A64 /* Watch42mmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315AB11C230BCC001A2A64 /* Watch42mmFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA315A6A1C2303C2001A2A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA315A4D1C2303C2001A2A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA315A541C2303C2001A2A64;
+			remoteInfo = AbstractFactoryPattern;
+		};
+		EA315A751C2303C2001A2A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA315A4D1C2303C2001A2A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA315A541C2303C2001A2A64;
+			remoteInfo = AbstractFactoryPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA061CE81C230F4000902B55 /* StainlessSteelDial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StainlessSteelDial.swift; sourceTree = "<group>"; };
+		EA061CEC1C230FD300902B55 /* Watch38mmFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watch38mmFactory.swift; sourceTree = "<group>"; };
+		EA315A551C2303C2001A2A64 /* AbstractFactoryPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactoryPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA315A581C2303C2001A2A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA315A5A1C2303C2001A2A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA315A5D1C2303C2001A2A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA315A5F1C2303C2001A2A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA315A621C2303C2001A2A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA315A641C2303C2001A2A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA315A691C2303C2001A2A64 /* AbstractFactoryPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA315A6D1C2303C2001A2A64 /* AbstractFactoryPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPatternTests.swift; sourceTree = "<group>"; };
+		EA315A6F1C2303C2001A2A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA315A741C2303C2001A2A64 /* AbstractFactoryPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA315A781C2303C2001A2A64 /* AbstractFactoryPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPatternUITests.swift; sourceTree = "<group>"; };
+		EA315A7A1C2303C2001A2A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA315A871C230488001A2A64 /* ProtocolsAndEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolsAndEnums.swift; sourceTree = "<group>"; };
+		EA315A8B1C2306A7001A2A64 /* MilaneseBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilaneseBand.swift; sourceTree = "<group>"; };
+		EA315A8F1C230742001A2A64 /* ClassicBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicBand.swift; sourceTree = "<group>"; };
+		EA315A931C2307A5001A2A64 /* LeatherBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeatherBand.swift; sourceTree = "<group>"; };
+		EA315A971C2307FF001A2A64 /* ModernBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernBand.swift; sourceTree = "<group>"; };
+		EA315A9B1C230867001A2A64 /* LinkBraceletBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkBraceletBand.swift; sourceTree = "<group>"; };
+		EA315A9F1C2308AD001A2A64 /* SportBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportBand.swift; sourceTree = "<group>"; };
+		EA315AA51C23091F001A2A64 /* AluminiumDial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AluminiumDial.swift; sourceTree = "<group>"; };
+		EA315AA91C230972001A2A64 /* GoldDial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldDial.swift; sourceTree = "<group>"; };
+		EA315AAD1C2309D3001A2A64 /* WatchFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchFactory.swift; sourceTree = "<group>"; };
+		EA315AB11C230BCC001A2A64 /* Watch42mmFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watch42mmFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA315A521C2303C2001A2A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA315A661C2303C2001A2A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA315A711C2303C2001A2A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA315A4C1C2303C2001A2A64 = {
+			isa = PBXGroup;
+			children = (
+				EA315A571C2303C2001A2A64 /* AbstractFactoryPattern */,
+				EA315A6C1C2303C2001A2A64 /* AbstractFactoryPatternTests */,
+				EA315A771C2303C2001A2A64 /* AbstractFactoryPatternUITests */,
+				EA315A561C2303C2001A2A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA315A561C2303C2001A2A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA315A551C2303C2001A2A64 /* AbstractFactoryPattern.app */,
+				EA315A691C2303C2001A2A64 /* AbstractFactoryPatternTests.xctest */,
+				EA315A741C2303C2001A2A64 /* AbstractFactoryPatternUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA315A571C2303C2001A2A64 /* AbstractFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				EA315A581C2303C2001A2A64 /* AppDelegate.swift */,
+				EA315A5A1C2303C2001A2A64 /* ViewController.swift */,
+				EA315A861C2303EC001A2A64 /* Model */,
+				EA315A5C1C2303C2001A2A64 /* Main.storyboard */,
+				EA315A5F1C2303C2001A2A64 /* Assets.xcassets */,
+				EA315A611C2303C2001A2A64 /* LaunchScreen.storyboard */,
+				EA315A641C2303C2001A2A64 /* Info.plist */,
+			);
+			path = AbstractFactoryPattern;
+			sourceTree = "<group>";
+		};
+		EA315A6C1C2303C2001A2A64 /* AbstractFactoryPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA315A6D1C2303C2001A2A64 /* AbstractFactoryPatternTests.swift */,
+				EA315A6F1C2303C2001A2A64 /* Info.plist */,
+			);
+			path = AbstractFactoryPatternTests;
+			sourceTree = "<group>";
+		};
+		EA315A771C2303C2001A2A64 /* AbstractFactoryPatternUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA315A781C2303C2001A2A64 /* AbstractFactoryPatternUITests.swift */,
+				EA315A7A1C2303C2001A2A64 /* Info.plist */,
+			);
+			path = AbstractFactoryPatternUITests;
+			sourceTree = "<group>";
+		};
+		EA315A861C2303EC001A2A64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA315A871C230488001A2A64 /* ProtocolsAndEnums.swift */,
+				EA315AAD1C2309D3001A2A64 /* WatchFactory.swift */,
+				EA315AB11C230BCC001A2A64 /* Watch42mmFactory.swift */,
+				EA061CEC1C230FD300902B55 /* Watch38mmFactory.swift */,
+				EA315AA31C2308E3001A2A64 /* Bands */,
+				EA315AA41C2308FA001A2A64 /* Dials */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA315AA31C2308E3001A2A64 /* Bands */ = {
+			isa = PBXGroup;
+			children = (
+				EA315A8B1C2306A7001A2A64 /* MilaneseBand.swift */,
+				EA315A8F1C230742001A2A64 /* ClassicBand.swift */,
+				EA315A931C2307A5001A2A64 /* LeatherBand.swift */,
+				EA315A971C2307FF001A2A64 /* ModernBand.swift */,
+				EA315A9B1C230867001A2A64 /* LinkBraceletBand.swift */,
+				EA315A9F1C2308AD001A2A64 /* SportBand.swift */,
+			);
+			name = Bands;
+			sourceTree = "<group>";
+		};
+		EA315AA41C2308FA001A2A64 /* Dials */ = {
+			isa = PBXGroup;
+			children = (
+				EA315AA51C23091F001A2A64 /* AluminiumDial.swift */,
+				EA315AA91C230972001A2A64 /* GoldDial.swift */,
+				EA061CE81C230F4000902B55 /* StainlessSteelDial.swift */,
+			);
+			name = Dials;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA315A541C2303C2001A2A64 /* AbstractFactoryPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA315A7D1C2303C2001A2A64 /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern" */;
+			buildPhases = (
+				EA315A511C2303C2001A2A64 /* Sources */,
+				EA315A521C2303C2001A2A64 /* Frameworks */,
+				EA315A531C2303C2001A2A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactoryPattern;
+			productName = AbstractFactoryPattern;
+			productReference = EA315A551C2303C2001A2A64 /* AbstractFactoryPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA315A681C2303C2001A2A64 /* AbstractFactoryPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA315A801C2303C2001A2A64 /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternTests" */;
+			buildPhases = (
+				EA315A651C2303C2001A2A64 /* Sources */,
+				EA315A661C2303C2001A2A64 /* Frameworks */,
+				EA315A671C2303C2001A2A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA315A6B1C2303C2001A2A64 /* PBXTargetDependency */,
+			);
+			name = AbstractFactoryPatternTests;
+			productName = AbstractFactoryPatternTests;
+			productReference = EA315A691C2303C2001A2A64 /* AbstractFactoryPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA315A731C2303C2001A2A64 /* AbstractFactoryPatternUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA315A831C2303C2001A2A64 /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternUITests" */;
+			buildPhases = (
+				EA315A701C2303C2001A2A64 /* Sources */,
+				EA315A711C2303C2001A2A64 /* Frameworks */,
+				EA315A721C2303C2001A2A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA315A761C2303C2001A2A64 /* PBXTargetDependency */,
+			);
+			name = AbstractFactoryPatternUITests;
+			productName = AbstractFactoryPatternUITests;
+			productReference = EA315A741C2303C2001A2A64 /* AbstractFactoryPatternUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA315A4D1C2303C2001A2A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jesus Antonio Gil";
+				TargetAttributes = {
+					EA315A541C2303C2001A2A64 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4JRP4V69AV;
+					};
+					EA315A681C2303C2001A2A64 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4JRP4V69AV;
+						TestTargetID = EA315A541C2303C2001A2A64;
+					};
+					EA315A731C2303C2001A2A64 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4JRP4V69AV;
+						TestTargetID = EA315A541C2303C2001A2A64;
+					};
+				};
+			};
+			buildConfigurationList = EA315A501C2303C2001A2A64 /* Build configuration list for PBXProject "AbstractFactoryPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA315A4C1C2303C2001A2A64;
+			productRefGroup = EA315A561C2303C2001A2A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA315A541C2303C2001A2A64 /* AbstractFactoryPattern */,
+				EA315A681C2303C2001A2A64 /* AbstractFactoryPatternTests */,
+				EA315A731C2303C2001A2A64 /* AbstractFactoryPatternUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA315A531C2303C2001A2A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA315A631C2303C2001A2A64 /* LaunchScreen.storyboard in Resources */,
+				EA315A601C2303C2001A2A64 /* Assets.xcassets in Resources */,
+				EA315A5E1C2303C2001A2A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA315A671C2303C2001A2A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA315A721C2303C2001A2A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA315A511C2303C2001A2A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA315A981C2307FF001A2A64 /* ModernBand.swift in Sources */,
+				EA315A8C1C2306A7001A2A64 /* MilaneseBand.swift in Sources */,
+				EA315A5B1C2303C2001A2A64 /* ViewController.swift in Sources */,
+				EA315AAA1C230972001A2A64 /* GoldDial.swift in Sources */,
+				EA315AA61C23091F001A2A64 /* AluminiumDial.swift in Sources */,
+				EA315A941C2307A5001A2A64 /* LeatherBand.swift in Sources */,
+				EA315AB21C230BCC001A2A64 /* Watch42mmFactory.swift in Sources */,
+				EA315A901C230742001A2A64 /* ClassicBand.swift in Sources */,
+				EA061CE91C230F4000902B55 /* StainlessSteelDial.swift in Sources */,
+				EA315A591C2303C2001A2A64 /* AppDelegate.swift in Sources */,
+				EA315AAE1C2309D3001A2A64 /* WatchFactory.swift in Sources */,
+				EA315A9C1C230867001A2A64 /* LinkBraceletBand.swift in Sources */,
+				EA315A881C230488001A2A64 /* ProtocolsAndEnums.swift in Sources */,
+				EA315AA01C2308AD001A2A64 /* SportBand.swift in Sources */,
+				EA061CED1C230FD300902B55 /* Watch38mmFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA315A651C2303C2001A2A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA315AB31C230BCC001A2A64 /* Watch42mmFactory.swift in Sources */,
+				EA061CEA1C230F4000902B55 /* StainlessSteelDial.swift in Sources */,
+				EA315AAF1C2309D3001A2A64 /* WatchFactory.swift in Sources */,
+				EA315A891C230488001A2A64 /* ProtocolsAndEnums.swift in Sources */,
+				EA315A951C2307A5001A2A64 /* LeatherBand.swift in Sources */,
+				EA315A6E1C2303C2001A2A64 /* AbstractFactoryPatternTests.swift in Sources */,
+				EA315AAB1C230972001A2A64 /* GoldDial.swift in Sources */,
+				EA315A8D1C2306A7001A2A64 /* MilaneseBand.swift in Sources */,
+				EA315A911C230742001A2A64 /* ClassicBand.swift in Sources */,
+				EA315A991C2307FF001A2A64 /* ModernBand.swift in Sources */,
+				EA315A9D1C230867001A2A64 /* LinkBraceletBand.swift in Sources */,
+				EA061CEE1C230FD300902B55 /* Watch38mmFactory.swift in Sources */,
+				EA315AA71C23091F001A2A64 /* AluminiumDial.swift in Sources */,
+				EA315AA11C2308AD001A2A64 /* SportBand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA315A701C2303C2001A2A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA315AB41C230BCC001A2A64 /* Watch42mmFactory.swift in Sources */,
+				EA061CEB1C230F4000902B55 /* StainlessSteelDial.swift in Sources */,
+				EA315AB01C2309D3001A2A64 /* WatchFactory.swift in Sources */,
+				EA315A8A1C230488001A2A64 /* ProtocolsAndEnums.swift in Sources */,
+				EA315A961C2307A5001A2A64 /* LeatherBand.swift in Sources */,
+				EA315A791C2303C2001A2A64 /* AbstractFactoryPatternUITests.swift in Sources */,
+				EA315AAC1C230972001A2A64 /* GoldDial.swift in Sources */,
+				EA315A8E1C2306A7001A2A64 /* MilaneseBand.swift in Sources */,
+				EA315A921C230742001A2A64 /* ClassicBand.swift in Sources */,
+				EA315A9A1C2307FF001A2A64 /* ModernBand.swift in Sources */,
+				EA315A9E1C230867001A2A64 /* LinkBraceletBand.swift in Sources */,
+				EA061CEF1C230FD300902B55 /* Watch38mmFactory.swift in Sources */,
+				EA315AA81C23091F001A2A64 /* AluminiumDial.swift in Sources */,
+				EA315AA21C2308AD001A2A64 /* SportBand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA315A6B1C2303C2001A2A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA315A541C2303C2001A2A64 /* AbstractFactoryPattern */;
+			targetProxy = EA315A6A1C2303C2001A2A64 /* PBXContainerItemProxy */;
+		};
+		EA315A761C2303C2001A2A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA315A541C2303C2001A2A64 /* AbstractFactoryPattern */;
+			targetProxy = EA315A751C2303C2001A2A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA315A5C1C2303C2001A2A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA315A5D1C2303C2001A2A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA315A611C2303C2001A2A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA315A621C2303C2001A2A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA315A7B1C2303C2001A2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA315A7C1C2303C2001A2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA315A7E1C2303C2001A2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactoryPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.AbstractFactoryPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA315A7F1C2303C2001A2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactoryPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.AbstractFactoryPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA315A811C2303C2001A2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AbstractFactoryPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.AbstractFactoryPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbstractFactoryPattern.app/AbstractFactoryPattern";
+			};
+			name = Debug;
+		};
+		EA315A821C2303C2001A2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AbstractFactoryPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.AbstractFactoryPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbstractFactoryPattern.app/AbstractFactoryPattern";
+			};
+			name = Release;
+		};
+		EA315A841C2303C2001A2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AbstractFactoryPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.AbstractFactoryPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AbstractFactoryPattern;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA315A851C2303C2001A2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AbstractFactoryPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.AbstractFactoryPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AbstractFactoryPattern;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA315A501C2303C2001A2A64 /* Build configuration list for PBXProject "AbstractFactoryPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA315A7B1C2303C2001A2A64 /* Debug */,
+				EA315A7C1C2303C2001A2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA315A7D1C2303C2001A2A64 /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA315A7E1C2303C2001A2A64 /* Debug */,
+				EA315A7F1C2303C2001A2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA315A801C2303C2001A2A64 /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA315A811C2303C2001A2A64 /* Debug */,
+				EA315A821C2303C2001A2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA315A831C2303C2001A2A64 /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA315A841C2303C2001A2A64 /* Debug */,
+				EA315A851C2303C2001A2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA315A4D1C2303C2001A2A64 /* Project object */;
+}

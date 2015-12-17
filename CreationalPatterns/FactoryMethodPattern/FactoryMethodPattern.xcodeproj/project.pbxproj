@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD1AF9D1C22FAA4000C1037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AF9C1C22FAA4000C1037 /* AppDelegate.swift */; };
+		EAD1AF9F1C22FAA4000C1037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AF9E1C22FAA4000C1037 /* ViewController.swift */; };
+		EAD1AFA21C22FAA4000C1037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD1AFA01C22FAA4000C1037 /* Main.storyboard */; };
+		EAD1AFA41C22FAA4000C1037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD1AFA31C22FAA4000C1037 /* Assets.xcassets */; };
+		EAD1AFA71C22FAA4000C1037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD1AFA51C22FAA4000C1037 /* LaunchScreen.storyboard */; };
+		EAD1AFB21C22FAA4000C1037 /* FactoryMethodPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFB11C22FAA4000C1037 /* FactoryMethodPatternTests.swift */; };
+		EAD1AFBD1C22FAA4000C1037 /* FactoryMethodPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFBC1C22FAA4000C1037 /* FactoryMethodPatternUITests.swift */; };
+		EAD1AFCC1C22FADB000C1037 /* AbstractCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFCB1C22FADB000C1037 /* AbstractCard.swift */; };
+		EAD1AFCD1C22FADB000C1037 /* AbstractCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFCB1C22FADB000C1037 /* AbstractCard.swift */; };
+		EAD1AFCE1C22FADB000C1037 /* AbstractCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFCB1C22FADB000C1037 /* AbstractCard.swift */; };
+		EAD1AFD01C22FF44000C1037 /* CardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFCF1C22FF44000C1037 /* CardFactory.swift */; };
+		EAD1AFD11C22FF44000C1037 /* CardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFCF1C22FF44000C1037 /* CardFactory.swift */; };
+		EAD1AFD21C22FF44000C1037 /* CardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFCF1C22FF44000C1037 /* CardFactory.swift */; };
+		EAD1AFD41C23002D000C1037 /* RaidLeaderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFD31C23002D000C1037 /* RaidLeaderCard.swift */; };
+		EAD1AFD51C23002D000C1037 /* RaidLeaderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFD31C23002D000C1037 /* RaidLeaderCard.swift */; };
+		EAD1AFD61C23002D000C1037 /* RaidLeaderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFD31C23002D000C1037 /* RaidLeaderCard.swift */; };
+		EAD1AFD81C2300E0000C1037 /* FacelessManipulatorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFD71C2300E0000C1037 /* FacelessManipulatorCard.swift */; };
+		EAD1AFD91C2300E0000C1037 /* FacelessManipulatorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFD71C2300E0000C1037 /* FacelessManipulatorCard.swift */; };
+		EAD1AFDA1C2300E0000C1037 /* FacelessManipulatorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1AFD71C2300E0000C1037 /* FacelessManipulatorCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD1AFAE1C22FAA4000C1037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD1AF911C22FAA4000C1037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD1AF981C22FAA4000C1037;
+			remoteInfo = FactoryMethodPattern;
+		};
+		EAD1AFB91C22FAA4000C1037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD1AF911C22FAA4000C1037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD1AF981C22FAA4000C1037;
+			remoteInfo = FactoryMethodPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAD1AF991C22FAA4000C1037 /* FactoryMethodPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryMethodPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD1AF9C1C22FAA4000C1037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAD1AF9E1C22FAA4000C1037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAD1AFA11C22FAA4000C1037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD1AFA31C22FAA4000C1037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD1AFA61C22FAA4000C1037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAD1AFA81C22FAA4000C1037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD1AFAD1C22FAA4000C1037 /* FactoryMethodPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethodPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD1AFB11C22FAA4000C1037 /* FactoryMethodPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPatternTests.swift; sourceTree = "<group>"; };
+		EAD1AFB31C22FAA4000C1037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD1AFB81C22FAA4000C1037 /* FactoryMethodPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethodPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD1AFBC1C22FAA4000C1037 /* FactoryMethodPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPatternUITests.swift; sourceTree = "<group>"; };
+		EAD1AFBE1C22FAA4000C1037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD1AFCB1C22FADB000C1037 /* AbstractCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractCard.swift; sourceTree = "<group>"; };
+		EAD1AFCF1C22FF44000C1037 /* CardFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFactory.swift; sourceTree = "<group>"; };
+		EAD1AFD31C23002D000C1037 /* RaidLeaderCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaidLeaderCard.swift; sourceTree = "<group>"; };
+		EAD1AFD71C2300E0000C1037 /* FacelessManipulatorCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacelessManipulatorCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD1AF961C22FAA4000C1037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1AFAA1C22FAA4000C1037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1AFB51C22FAA4000C1037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD1AF901C22FAA4000C1037 = {
+			isa = PBXGroup;
+			children = (
+				EAD1AF9B1C22FAA4000C1037 /* FactoryMethodPattern */,
+				EAD1AFB01C22FAA4000C1037 /* FactoryMethodPatternTests */,
+				EAD1AFBB1C22FAA4000C1037 /* FactoryMethodPatternUITests */,
+				EAD1AF9A1C22FAA4000C1037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD1AF9A1C22FAA4000C1037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1AF991C22FAA4000C1037 /* FactoryMethodPattern.app */,
+				EAD1AFAD1C22FAA4000C1037 /* FactoryMethodPatternTests.xctest */,
+				EAD1AFB81C22FAA4000C1037 /* FactoryMethodPatternUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD1AF9B1C22FAA4000C1037 /* FactoryMethodPattern */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1AF9C1C22FAA4000C1037 /* AppDelegate.swift */,
+				EAD1AF9E1C22FAA4000C1037 /* ViewController.swift */,
+				EAD1AFCA1C22FABB000C1037 /* Model */,
+				EAD1AFA01C22FAA4000C1037 /* Main.storyboard */,
+				EAD1AFA31C22FAA4000C1037 /* Assets.xcassets */,
+				EAD1AFA51C22FAA4000C1037 /* LaunchScreen.storyboard */,
+				EAD1AFA81C22FAA4000C1037 /* Info.plist */,
+			);
+			path = FactoryMethodPattern;
+			sourceTree = "<group>";
+		};
+		EAD1AFB01C22FAA4000C1037 /* FactoryMethodPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1AFB11C22FAA4000C1037 /* FactoryMethodPatternTests.swift */,
+				EAD1AFB31C22FAA4000C1037 /* Info.plist */,
+			);
+			path = FactoryMethodPatternTests;
+			sourceTree = "<group>";
+		};
+		EAD1AFBB1C22FAA4000C1037 /* FactoryMethodPatternUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1AFBC1C22FAA4000C1037 /* FactoryMethodPatternUITests.swift */,
+				EAD1AFBE1C22FAA4000C1037 /* Info.plist */,
+			);
+			path = FactoryMethodPatternUITests;
+			sourceTree = "<group>";
+		};
+		EAD1AFCA1C22FABB000C1037 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1AFCB1C22FADB000C1037 /* AbstractCard.swift */,
+				EAD1AFCF1C22FF44000C1037 /* CardFactory.swift */,
+				EAD1AFD31C23002D000C1037 /* RaidLeaderCard.swift */,
+				EAD1AFD71C2300E0000C1037 /* FacelessManipulatorCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD1AF981C22FAA4000C1037 /* FactoryMethodPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD1AFC11C22FAA4000C1037 /* Build configuration list for PBXNativeTarget "FactoryMethodPattern" */;
+			buildPhases = (
+				EAD1AF951C22FAA4000C1037 /* Sources */,
+				EAD1AF961C22FAA4000C1037 /* Frameworks */,
+				EAD1AF971C22FAA4000C1037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryMethodPattern;
+			productName = FactoryMethodPattern;
+			productReference = EAD1AF991C22FAA4000C1037 /* FactoryMethodPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAD1AFAC1C22FAA4000C1037 /* FactoryMethodPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD1AFC41C22FAA4000C1037 /* Build configuration list for PBXNativeTarget "FactoryMethodPatternTests" */;
+			buildPhases = (
+				EAD1AFA91C22FAA4000C1037 /* Sources */,
+				EAD1AFAA1C22FAA4000C1037 /* Frameworks */,
+				EAD1AFAB1C22FAA4000C1037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD1AFAF1C22FAA4000C1037 /* PBXTargetDependency */,
+			);
+			name = FactoryMethodPatternTests;
+			productName = FactoryMethodPatternTests;
+			productReference = EAD1AFAD1C22FAA4000C1037 /* FactoryMethodPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAD1AFB71C22FAA4000C1037 /* FactoryMethodPatternUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD1AFC71C22FAA4000C1037 /* Build configuration list for PBXNativeTarget "FactoryMethodPatternUITests" */;
+			buildPhases = (
+				EAD1AFB41C22FAA4000C1037 /* Sources */,
+				EAD1AFB51C22FAA4000C1037 /* Frameworks */,
+				EAD1AFB61C22FAA4000C1037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD1AFBA1C22FAA4000C1037 /* PBXTargetDependency */,
+			);
+			name = FactoryMethodPatternUITests;
+			productName = FactoryMethodPatternUITests;
+			productReference = EAD1AFB81C22FAA4000C1037 /* FactoryMethodPatternUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD1AF911C22FAA4000C1037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jesus Antonio Gil";
+				TargetAttributes = {
+					EAD1AF981C22FAA4000C1037 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4JRP4V69AV;
+					};
+					EAD1AFAC1C22FAA4000C1037 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4JRP4V69AV;
+						TestTargetID = EAD1AF981C22FAA4000C1037;
+					};
+					EAD1AFB71C22FAA4000C1037 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4JRP4V69AV;
+						TestTargetID = EAD1AF981C22FAA4000C1037;
+					};
+				};
+			};
+			buildConfigurationList = EAD1AF941C22FAA4000C1037 /* Build configuration list for PBXProject "FactoryMethodPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD1AF901C22FAA4000C1037;
+			productRefGroup = EAD1AF9A1C22FAA4000C1037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD1AF981C22FAA4000C1037 /* FactoryMethodPattern */,
+				EAD1AFAC1C22FAA4000C1037 /* FactoryMethodPatternTests */,
+				EAD1AFB71C22FAA4000C1037 /* FactoryMethodPatternUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD1AF971C22FAA4000C1037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1AFA71C22FAA4000C1037 /* LaunchScreen.storyboard in Resources */,
+				EAD1AFA41C22FAA4000C1037 /* Assets.xcassets in Resources */,
+				EAD1AFA21C22FAA4000C1037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1AFAB1C22FAA4000C1037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1AFB61C22FAA4000C1037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD1AF951C22FAA4000C1037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1AFD81C2300E0000C1037 /* FacelessManipulatorCard.swift in Sources */,
+				EAD1AFD41C23002D000C1037 /* RaidLeaderCard.swift in Sources */,
+				EAD1AF9F1C22FAA4000C1037 /* ViewController.swift in Sources */,
+				EAD1AF9D1C22FAA4000C1037 /* AppDelegate.swift in Sources */,
+				EAD1AFD01C22FF44000C1037 /* CardFactory.swift in Sources */,
+				EAD1AFCC1C22FADB000C1037 /* AbstractCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1AFA91C22FAA4000C1037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1AFD11C22FF44000C1037 /* CardFactory.swift in Sources */,
+				EAD1AFD91C2300E0000C1037 /* FacelessManipulatorCard.swift in Sources */,
+				EAD1AFB21C22FAA4000C1037 /* FactoryMethodPatternTests.swift in Sources */,
+				EAD1AFD51C23002D000C1037 /* RaidLeaderCard.swift in Sources */,
+				EAD1AFCD1C22FADB000C1037 /* AbstractCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1AFB41C22FAA4000C1037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1AFD21C22FF44000C1037 /* CardFactory.swift in Sources */,
+				EAD1AFDA1C2300E0000C1037 /* FacelessManipulatorCard.swift in Sources */,
+				EAD1AFBD1C22FAA4000C1037 /* FactoryMethodPatternUITests.swift in Sources */,
+				EAD1AFD61C23002D000C1037 /* RaidLeaderCard.swift in Sources */,
+				EAD1AFCE1C22FADB000C1037 /* AbstractCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD1AFAF1C22FAA4000C1037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD1AF981C22FAA4000C1037 /* FactoryMethodPattern */;
+			targetProxy = EAD1AFAE1C22FAA4000C1037 /* PBXContainerItemProxy */;
+		};
+		EAD1AFBA1C22FAA4000C1037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD1AF981C22FAA4000C1037 /* FactoryMethodPattern */;
+			targetProxy = EAD1AFB91C22FAA4000C1037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAD1AFA01C22FAA4000C1037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD1AFA11C22FAA4000C1037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD1AFA51C22FAA4000C1037 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD1AFA61C22FAA4000C1037 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD1AFBF1C22FAA4000C1037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAD1AFC01C22FAA4000C1037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD1AFC21C22FAA4000C1037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FactoryMethodPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.FactoryMethodPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD1AFC31C22FAA4000C1037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FactoryMethodPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.FactoryMethodPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD1AFC51C22FAA4000C1037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FactoryMethodPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.FactoryMethodPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FactoryMethodPattern.app/FactoryMethodPattern";
+			};
+			name = Debug;
+		};
+		EAD1AFC61C22FAA4000C1037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FactoryMethodPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.FactoryMethodPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FactoryMethodPattern.app/FactoryMethodPattern";
+			};
+			name = Release;
+		};
+		EAD1AFC81C22FAA4000C1037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FactoryMethodPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.FactoryMethodPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FactoryMethodPattern;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EAD1AFC91C22FAA4000C1037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FactoryMethodPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jag.FactoryMethodPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FactoryMethodPattern;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD1AF941C22FAA4000C1037 /* Build configuration list for PBXProject "FactoryMethodPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1AFBF1C22FAA4000C1037 /* Debug */,
+				EAD1AFC01C22FAA4000C1037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD1AFC11C22FAA4000C1037 /* Build configuration list for PBXNativeTarget "FactoryMethodPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1AFC21C22FAA4000C1037 /* Debug */,
+				EAD1AFC31C22FAA4000C1037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD1AFC41C22FAA4000C1037 /* Build configuration list for PBXNativeTarget "FactoryMethodPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1AFC51C22FAA4000C1037 /* Debug */,
+				EAD1AFC61C22FAA4000C1037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD1AFC71C22FAA4000C1037 /* Build configuration list for PBXNativeTarget "FactoryMethodPatternUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1AFC81C22FAA4000C1037 /* Debug */,
+				EAD1AFC91C22FAA4000C1037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD1AF911C22FAA4000C1037 /* Project object */;
+}
